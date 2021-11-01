@@ -13,7 +13,8 @@ const Header = () => {
             <p className="textHeader">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
             </p>
-            <a 
+            <a
+              rel="noreferrer"
               className="downloadResume"
               href="http://www.africau.edu/images/default/sample.pdf"
               target="_blank"
@@ -24,8 +25,7 @@ const Header = () => {
 
           </div>
           <div>
-            <img className="ava" src="ImgFooter/ava1.png">
-            </img>
+            <img className="ava" src="ImgFooter/ava1.png" alt="" />
           </div>
           <div className="wrapper">
             <input 

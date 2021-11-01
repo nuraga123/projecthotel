@@ -9,6 +9,7 @@ const PortfolioItem = ({img, title, year, type, description}) => {
         <img 
           className="portfolioItem__img"
           src={img}
+          alt=""
         />  
       
         <div>
