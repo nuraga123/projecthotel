@@ -27,11 +27,11 @@ const Header = () => {
           <div>
             <img className="ava" src="ImgFooter/ava1.png" alt="" />
           </div>
-          <div className="wrapper">
+          {/* <div className="wrapper">
             <input 
               type="checkbox"
-            ></input>
-          </div>
+            />
+          </div> */}
         </header>
     )
 }
