@@ -1,3 +1,4 @@
+
 .ava {
     width: 243px;
     height: 243px;
@@ -5,13 +6,12 @@
     margin-left: 115px;
 }
 
-.header {
+ .header {
     display: flex;
-    justify-content: center;
 }
 
 .headerTitle {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 60px;
     color: #21243D;
 }
@@ -33,9 +33,56 @@
     line-height: 29px;
     background-color: #FF6464;
     color: #FFFFFF;
-    border-radius: 2px;
+    border-radius: 10px;
     text-decoration: none;
     padding: auto;
     width: 208px;
     height: 47px;
+    cursor: pointer;
+    border: 1px solid #FF6464;
 }
+
+.downloadResume:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.1s ease-in;
+    border: 1px solid black;
+}
+
+.wrapper {
+    position: relative;
+    top: 20%;
+    transform: translate(-50% -50%);
+}
+
+input[type="checkbox"] {
+    width: 80px;
+    height: 40px;
+    background-color:blue;
+    -webkit-appearance: none;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: red;
+    transition: 1s ease;
+}
+
+input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: translate(38px);
+    transition: 1s ease;
+}
+

@@ -1,0 +1,63 @@
+.portfolioItem{
+    margin-top: 46px;
+    display: flex;
+}
+
+.portfItem__ {
+    margin-top: 15px;
+    margin-bottom: 31px;
+    width: 858px;
+    height: 0;
+    border-bottom: 2px solid #E0E0E0;
+}
+
+.portfolioItem__img {
+    margin-top: 11px;
+    margin-right: 18px;
+    width: 246px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.portfolioItem__title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 20px;
+}
+
+.portfolioItem__caption {
+    display: flex;
+}
+
+.portfolioItem__year {
+    width: 62px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #142850;
+    border-radius: 16px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.portfolioItem__type {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    margin-left: 26px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.portfolioItem__description {
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+    margin-top: 30px;
+}

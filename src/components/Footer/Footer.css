@@ -1,0 +1,80 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1152px;
+    height: 182px;
+    margin-top: 83px;
+    box-sizing: border-box;
+}
+
+.footer__img {
+    display: flex;
+    margin-right: 300px;
+    box-sizing: border-box;
+}
+
+.fb {
+    width: 35px;
+    height: 35px;
+    color: #21243D;
+    border-radius: 5%;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.tv {
+    width: 35px;
+    height: 35px;
+    color: #21243D;
+    border-radius: 5%;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.in {
+    width: 35px;
+    height: 35px;
+    color: #21243D;
+    border-radius: 5%;
+}
+
+.inst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 25%;
+    border: 3px solid #21243D;
+}
+
+.inst__circle {
+    width: 17px;
+    height: 12px;
+    border-radius: 50% ;
+    border: 3px solid #21243D;
+    margin: 7.27px;
+}
+
+.inst__point {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 24px;
+    margin-bottom: 21px;
+    margin-right: 5px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50% ;
+    border: 1    px solid #21243D;
+    background-color: #21243D;
+}
+
+.footer__text {
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+    margin-top: 26px;
+    margin-right: 250px;
+}
+
