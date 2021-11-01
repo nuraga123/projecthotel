@@ -15,7 +15,7 @@ const Footer = () => {
                     <img className="in"src="ImgFooter/Link.png" alt=""/>
                 </div>
                 <p className="footer__text">
-                    Copyright ©2020 All rights reserved
+                    Copyright ©2020 All rights reserved by Nuraga Yusifli
                 </p>
             </div>
         </footer>
