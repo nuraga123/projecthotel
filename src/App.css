@@ -8,7 +8,18 @@ body {
   font-family: Heebo;
 }
 
+.App {
+  margin-right: 148px;
+  margin-left: 148px;
+  padding-top: 60px;
+}
+
 @media screen and (max-width: 900px) {
+  .App {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
   html {
     overflow-x: hidden;
   }
@@ -16,12 +27,6 @@ body {
   body { 
     overflow-x: hidden;
     font-family: Heebo;
-  }
-
-  .App {
-    margin: 0 auto;
-    max-width: 855px;
-    padding-top: 0px;
   }
 }
 
@@ -42,11 +47,7 @@ body {
   font-weight: 500;
 }
 
-.App {
-  margin: 0 auto;
-  max-width: 855px;
-  padding-top: 90px;
-}
+
 
 ul {
   margin: 0;

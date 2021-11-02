@@ -60,6 +60,7 @@
     line-height: 23px;
     color: #21243D;
     margin-top: 30px;
+    width: 600px;
 }
 
 @media screen and (max-width: 900px) {    
