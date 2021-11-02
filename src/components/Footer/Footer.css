@@ -2,13 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 83px;
+    margin-top: 120px;
     box-sizing: border-box;
+    margin-left: 300px;
+    width: 410px;
 }
 
 .footer__socials {
     display: flex;
     box-sizing: border-box;
+    width: 400px;
 }
 
 .fb {
@@ -32,43 +35,65 @@
     border-radius: 5%;
 }
 
-.inst {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 25%;
-    border: 3px solid #21243D;
-}
-
-.inst__circle {
-    width: 17px;
-    height: 12px;
-    border-radius: 50% ;
-    border: 3px solid #21243D;
-    margin: 7.27px;
-}
-
-.inst__point {
-    position: absolute;
-    margin-top: 0px;
-    margin-bottom: 21px;
-    margin-right: 5px;
-    width: 4px;
-    height: 4px;
-    border-radius: 50% ;
-    border: 1px solid #21243D;
-    background-color: #21243D;
-}
-
 .footer__text {
     line-height: 21px;
-    text-align: center;
     color: #21243D;
     margin-top: 26px;
+    margin-bottom: 54px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.footer__text:hover {
+    color: crimson;
+    background: cyan;
+    border: 1px solid black;
+    border-radius: 5%;
+    font-family: cursive;
+    transition: 0.8s ease;
 }
 
 .footer__socialItem:not(:first-child) {
-    margin-left: 24px;
+    margin-left: 85px;
+}
+
+.inst {
+    width: 65px;
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 900px) {
+    .footer__text {
+        width: 180px;
+        text-align: center;
+        padding: 5px;
+        font-size: 13px;
+        margin-bottom: 54px;
+    }
+
+    .footer {
+        width: 375px;
+        height: 182px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+        box-sizing: border-box;
+        margin-left: 18px;
+    }
+
+    .footer__socialItem:not(:first-child) {
+        margin-left: 24px;
+    }
+
+    .inst {
+        width: 65px;
+        margin-left: 24px;
+    }
+    
+    .footer__socials {
+        display: flex;
+        box-sizing: border-box;
+        width: 200px;
+    }
 }

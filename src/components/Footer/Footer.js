@@ -6,25 +6,56 @@ const Footer = () => {
         <footer className="footer">
             <ul className="footer__socials">
                 <li className="footer__socialItem">
-                    <img className="fb" src="ImgFooter/fb.png" alt=""/>
+                    <a
+                        rel="noreferrer"
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                    >
+                        <img className="fb" src="ImgFooter/fb.png" alt="fb"/>
+                    </a>
                 </li>
                 <li className="footer__socialItem">
-                    <div className="inst">
-                        <div className="inst__point"></div>
-                        <div className="inst__circle"></div>
-                    </div>
+                    <a
+                        rel="noreferrer"
+                        href="https://twitter.com/"
+                        target="_blank"
+                    >
+                        <img 
+                            className="tv" 
+                            src="ImgFooter/tvit.png" 
+                            alt="tv"
+                        />
+                    </a>
                 </li>
                 <li className="footer__socialItem">
-                    <img className="tv" src="ImgFooter/tvit.png" alt=""/>
+                    <a
+                        rel="noreferrer"
+                        href="https://learn.javascript.ru/"
+                        target="_blank"
+                    >
+                        <img 
+                            className="in"
+                            src="ImgFooter/Link.png"
+                            alt="in"
+                        />
+                    </a>
                 </li>
-                <li className="footer__socialItem">
-                    <img className="in" src="ImgFooter/Link.png" alt=""/>
+                <li>
+                    <a
+                        rel="noreferrer"
+                        href="https://www.instagram.com/?hl=ru"
+                        target="_blank"
+                    >
+                        <img 
+                            className="inst"  
+                            src="ImgFooter/ins.jpg" 
+                            alt="inst"/>
+                    </a>
                 </li>
             </ul>
             <p className="footer__text">
                 Copyright ©2020 All rights reserved by Nuraga Yusifli
             </p>
-            
         </footer>
     );
 };
