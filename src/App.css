@@ -1,6 +1,32 @@
-body {
+html{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: Heebo;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  body
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Heebo;
+  }
 }
 
 @font-face {
@@ -53,3 +79,4 @@ p {
   margin: 0;
   color: #fff;
 }
+
