@@ -1,5 +1,4 @@
 .ava {
-    margin-left: 115px;
     width: 243px;
     height: 243px;
     border-radius: 50%;
@@ -22,6 +21,7 @@
     line-height: 23px;
     color: #21243D;
     margin-top: 40px;
+    margin-right: 115px;
 }
 
 .downloadResume {
@@ -123,5 +123,6 @@ input[type="checkbox"]:checked::before {
         width: 230px;
         margin-top: 21px;
         margin-left: 40px;
+        margin-right: 1px;
     }
 }
