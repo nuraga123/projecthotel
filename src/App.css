@@ -18,6 +18,7 @@ body {
   .App {
     margin-left: 1px;
     margin-right: 1px;
+    padding-top: 1px;
   }
 
   html {
