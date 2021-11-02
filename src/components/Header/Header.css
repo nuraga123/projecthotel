@@ -91,7 +91,7 @@ input[type="checkbox"]:checked::before {
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
-        width: 375px;
+        width: 300px;
     }
 
     .ava {
@@ -106,19 +106,20 @@ input[type="checkbox"]:checked::before {
         font-size: 32px;
         line-height: 40px;
         color: #21243D;
-        width: 312px;
+        width: 280px;
         height: 120px;
-        margin-left: 32px;
+        margin-left: 20px;
     }
 
     .downloadResume {
-        margin-left: 84px;
+        margin-left: 50px;
         margin-top: 27px;
         margin-bottom: 58px;
     }
 
     .textHeader {
-        margin-left: 24px;
+        width: 230px;
         margin-top: 21px;
+        margin-left: 40px;
     }
 }

@@ -67,8 +67,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 339px;
-        height: 230px;
+        width: 295px;
+        height: 210px;
     }
 
     .portfolioItem{
@@ -83,7 +83,7 @@
     }
 
     .portfolioItem__description {
-        width: 344px;
+        width: 280px;
         height: 96px;
         margin-top: 24px;
         font-size: 16px;
@@ -99,7 +99,7 @@
 
     .portfItem__ {
         width: 340px;
-        margin-top: 15px;
+        margin-top: 30px;
         margin-bottom: 31px;
         height: 0;
         border-bottom: 2px solid #E0E0E0;
