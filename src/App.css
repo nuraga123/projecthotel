@@ -1,12 +1,14 @@
 body {
   width: 100%;
   font-family: Heebo;
+  box-sizing: border-box;
 }
 
 .App {
   margin-right: 148px;
   margin-left: 148px;
-  padding-top: 60px;
+  padding-top: 110px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 900px) {

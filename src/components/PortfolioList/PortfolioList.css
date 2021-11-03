@@ -8,13 +8,12 @@
 
 @media screen and (max-width: 900px) {
     .h1 {
-        width: 124px;
-        font-size: 18px;
-        margin-bottom: 0;
-        margin-left: 100px;
+        width: 320px;
         font-weight: 400;
-        margin-top: 0;
         color: #21243D;
-        margin-bottom: -30px;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: -40px;
     }
 }

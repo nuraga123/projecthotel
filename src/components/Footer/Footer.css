@@ -38,19 +38,24 @@
 .footer__text {
     line-height: 21px;
     color: #21243D;
+    font-weight: bold;
     margin-top: 26px;
     margin-bottom: 54px;
     font-family: cursive;
     font-size: 15px;
+    height: 100px;
+    border-radius: 10px;
 }
 
 .footer__text:hover {
-    color: crimson;
+    color: black;
+    font-weight: bold;
     background: cyan;
-    border: 1px solid black;
-    border-radius: 5%;
+    border: 1px solid cyan;
+    border-radius: 10px;
     font-family: cursive;
-    transition: 0.8s ease;
+    transition: 0.3s ease;
+    height: 100px;
 }
 
 .footer__socialItem:not(:first-child) {
@@ -64,15 +69,16 @@
 
 @media screen and (max-width: 900px) {
     .footer__text {
-        width: 180px;
+        width: 250px;
         text-align: center;
         padding: 5px;
+        margin-left: 20px;
         font-size: 13px;
         margin-bottom: 54px;
     }
 
     .footer {
-        width: 280px;
+        width: 260px;
         height: 182px;
         display: flex;
         flex-direction: column;
