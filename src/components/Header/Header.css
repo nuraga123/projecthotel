@@ -8,6 +8,7 @@
  .header {
     display: flex;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .headerTitle {
@@ -24,7 +25,6 @@
     line-height: 23px;
     color: #21243D;
     margin-top: 40px;
-    margin-right: 115px;
     box-sizing: border-box;
 }
 

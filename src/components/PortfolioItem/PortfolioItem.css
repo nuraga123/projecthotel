@@ -99,10 +99,12 @@
     }
 
     .portfItem__ {
-        width: 290px;
+        display: flex;
+        justify-content: center;
+        width: 90%;
         margin-top: 30px;
         margin-bottom: 31px;
-        height: 0;
+        height: 0px;
         border-bottom: 2px solid #E0E0E0;
         margin-left: 18px;
     };
