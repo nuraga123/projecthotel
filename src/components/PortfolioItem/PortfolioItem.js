@@ -12,7 +12,7 @@ const PortfolioItem = ({img, title, year, type, description}) => {
           alt=""
         />  
       
-        <div className="text__fayl">
+        <div>
           <h1 
             className="portfolioItem__title">
             {title}
