@@ -4,7 +4,7 @@ import "./PortfolioItem.css"
 const PortfolioItem = ({img, title, year, type, description}) => {
   return (
     <div className="portfolioItem">      
-      <div className="portfolioItem__sbor">
+      <div className="portfolioItem__element">
 
         <img 
           className="portfolioItem__img"
@@ -38,7 +38,7 @@ const PortfolioItem = ({img, title, year, type, description}) => {
         </div>
       </div>
       
-      <div className="portfItem__">
+      <div className="portfItem__border">
 
       </div>
     </div>

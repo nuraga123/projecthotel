@@ -1,4 +1,4 @@
-.h1 {
+.list__h1 {
     font-weight: 400;
     margin-top: 71px;
     font-size: 22px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 900px) {
-    .h1 {
+    .list__h1 {
         font-weight: 400;
         color: #21243D;
         text-align: center;

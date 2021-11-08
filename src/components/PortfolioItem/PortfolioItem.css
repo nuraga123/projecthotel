@@ -2,11 +2,11 @@
     display: block;
 }
 
-.portfolioItem__sbor {
+.portfolioItem__element {
     display: flex;
 }
 
-.portfItem__ {
+.portfItem__border {
     display: block;
     margin-top: 15px;
     margin-bottom: 31px;
@@ -100,7 +100,7 @@
         font-size: 16px;
     }
 
-    .portfItem__ {
+    .portfItem__border {
         display: flex;
         width: 100%;
         margin-top: 30px;

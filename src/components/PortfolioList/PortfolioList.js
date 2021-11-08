@@ -7,7 +7,7 @@ const PortfolioList = () => {
 
   return (
     <div>
-      <h1 className="h1">
+      <h1 className="list__h1">
         Featured works
       </h1>
       {products.map(item => (
