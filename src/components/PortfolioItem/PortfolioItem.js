@@ -3,8 +3,8 @@ import "./PortfolioItem.css"
 
 const PortfolioItem = ({img, title, year, type, description}) => {
   return (
-    <div>      
-      <div className="portfolioItem">
+    <div className="portfolioItem">      
+      <div className="portfolioItem__sbor">
 
         <img 
           className="portfolioItem__img"
@@ -12,7 +12,7 @@ const PortfolioItem = ({img, title, year, type, description}) => {
           alt=""
         />  
       
-        <div>
+        <div className="text__fayl">
           <h1 
             className="portfolioItem__title">
             {title}
@@ -34,10 +34,13 @@ const PortfolioItem = ({img, title, year, type, description}) => {
             className="portfolioItem__description">
             {description}
           </p>
-        
+          
         </div>
       </div>
-      <div className="portfItem__"/>
+      
+      <div className="portfItem__">
+
+      </div>
     </div>
   );
 };

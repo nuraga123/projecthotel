@@ -4,10 +4,10 @@ import "./Header.css";
 const Header = () => {
     return (
         <header className="header">
-          <div>
+          <div className="headerText">
             
             <h1 className="headerTitle">
-            Hi, I am John,<br/>Creative Technologist
+              Hi, I am John,<br/>Creative Technologist
             </h1>
             
             <p className="textHeader">

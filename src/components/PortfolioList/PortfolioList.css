@@ -8,12 +8,10 @@
 
 @media screen and (max-width: 900px) {
     .h1 {
-        width: 320px;
         font-weight: 400;
         color: #21243D;
         text-align: center;
         font-size: 18px;
-        margin-top: 0;
-        margin-bottom: -40px;
+        margin-bottom: -30px;
     }
 }
