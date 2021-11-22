@@ -1,9 +1,8 @@
-.ava {
+.nuraga {
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 200px;
-    height: 200px;
+    height: 243px;
     border-radius: 15%;
 }
 
@@ -16,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 .header__title {
@@ -68,7 +68,7 @@
         width: 300px;
     }
 
-    .ava {
+    .nuraga {
         width: 170px;
         height: 170px;
         margin-bottom: 44px;
