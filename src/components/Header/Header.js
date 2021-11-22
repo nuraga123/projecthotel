@@ -24,7 +24,11 @@ const Header = () => {
             </a>
           </div>
           <div >
-            <img className="nuraga" src="Img/nuraga1.jpg" alt="nuraga" style={{borderRadius: 15}}/>
+            <img 
+              className="header__foto" 
+              src="Img/ava1.png" 
+              alt="foto"
+            />
           </div>
         </header>
     )
