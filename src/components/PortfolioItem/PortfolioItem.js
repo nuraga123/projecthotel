@@ -7,6 +7,7 @@ const PortfolioItem = ({img, title, year, type, description}) => {
       href="https://my-bit-riyb1bhik-nuraga123.vercel.app/"  
       className="portfolioItem"
       target="_blank"
+      without rel="noreferrer"
     >     
       <div className="portfolioItem__element">
 
