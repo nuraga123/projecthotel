@@ -7,7 +7,7 @@ const Header = () => {
           <div className="header__content">
             
             <h1 className="header__title">
-              Hi, I am John,<br/>Creative Technologist
+              Hi, I am Nuraga,<br/>Frontend Developer
             </h1>
             
             <p className="header__text">
@@ -24,7 +24,7 @@ const Header = () => {
             </a>
           </div>
           <div>
-            <img className="header__ava" src="ImgFooter/ava1.png" alt="" />
+            <img className="header__ava" src="Img/nuraga1.jpg" alt="" />
           </div>
         </header>
     )

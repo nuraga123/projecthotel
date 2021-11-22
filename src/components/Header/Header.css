@@ -1,7 +1,7 @@
-.ava {
+.header__ava {
     width: 243px;
     height: 243px;
-    border-radius: 50%;
+    border-radius: 15%;
 }
 
 .header__content {
