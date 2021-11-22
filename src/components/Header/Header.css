@@ -2,15 +2,15 @@
     width: 243px;
     height: 243px;
     border-radius: 50%;
-    box-sizing: border-box;
 }
+
 .header__content {
     display: block;
 }
+
 .header {
     margin-top: 50px;
     display: flex;
-    box-sizing: border-box;
     justify-content: space-between;
     width: 100%;
 }
@@ -20,7 +20,6 @@
     font-size: 40px;
     line-height: 60px;
     color: #21243D;
-    box-sizing: border-box;
 }
 
 .header__text {
@@ -29,7 +28,6 @@
     line-height: 23px;
     color: #21243D;
     margin-top: 40px;
-    box-sizing: border-box;
 }
 
 .header__resume {
@@ -48,54 +46,15 @@
     width: 208px;
     height: 47px;
     cursor: pointer;
+    transition: all 0.1s ease-in;
     border: 1px solid #ff6464;
-    box-sizing: border-box;
 }
 
 .header__resume:hover {
     background-color: white;
     color: black;
-    transition: all 0.1s ease-in;
     border: 1px solid black;
-    box-sizing: border-box;
 }
-
-/* .wrapper {
-    position: relative;
-    top: 20%;
-    transform: translate(-50% -50%);
-}
-
-input[type="checkbox"] {
-    width: 80px;
-    height: 40px;
-    background-color:blue;
-    -webkit-appearance: none;
-    margin: 0 auto;
-    border-radius: 20px;
-}
-
-input[type="checkbox"]:checked {
-    background-color: red;
-    transition: 1s ease;
-}
-
-input[type="checkbox"]::before {
-    content: '';
-    position: absolute;
-    top: 3px;
-    left: 4px;
-    width: 34px;
-    height: 34px;
-    background-color: #fff;
-    border-radius: 50%;
-    transition: 1s ease;
-}
-
-input[type="checkbox"]:checked::before {
-    transform: translate(38px);
-    transition: 1s ease;
-} */
 
 
 @media screen and (max-width: 900px) {
@@ -104,61 +63,29 @@ input[type="checkbox"]:checked::before {
         align-items: center;
         text-align: center;
         width: 300px;
-        box-sizing: border-box;
     }
 
     .header__ava {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
         width: 170px;
         height: 170px;
         margin-bottom: 44px;
         margin-top: 52px;
-        box-sizing: border-box;
     }
 
     .header__title {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
         font-size: 32px;
         line-height: 40px;
-        color: #21243D;
-        width: 100%;
-        box-sizing: border-box;
     }
 
     .header__resume {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 38px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 29px;
-        background-color: #ff6464;
-        color: #fff;
-        border-radius: 10px;
-        text-decoration: none;
-        padding: auto;
-        width: 208px;
-        height: 47px;
-        cursor: pointer;
-        border: 1px solid #ff6464;
-        box-sizing: border-box;
     }
 
     .header__text {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+        width: 100%;
+        max-width: 285px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

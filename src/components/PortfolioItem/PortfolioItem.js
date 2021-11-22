@@ -3,7 +3,11 @@ import "./PortfolioItem.css"
 
 const PortfolioItem = ({img, title, year, type, description}) => {
   return (
-    <div className="portfolioItem">      
+    <a 
+      href="https://my-bit-riyb1bhik-nuraga123.vercel.app/"  
+      className="portfolioItem"
+      target="_blank"
+    >     
       <div className="portfolioItem__element">
 
         <img 
@@ -41,7 +45,7 @@ const PortfolioItem = ({img, title, year, type, description}) => {
       <div className="portfItem__border">
 
       </div>
-    </div>
+    </a>
   );
 };
 
