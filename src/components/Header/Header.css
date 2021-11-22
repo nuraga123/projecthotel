@@ -1,8 +1,4 @@
 .nuraga {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 243px;
     border-radius: 15%;
 }
 
@@ -73,6 +69,7 @@
         height: 170px;
         margin-bottom: 44px;
         margin-top: 52px;
+        border-radius: 15%;
     }
 
     .header__title {
