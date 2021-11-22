@@ -23,8 +23,8 @@ const Header = () => {
               Download Resume
             </a>
           </div>
-          <div>
-            <img className="ava" src="Img/ava1.png" alt="nuraga"/>
+          <div className="ava">
+            <img  src="Img/ava1.png" alt="nuraga"/>
           </div>
         </header>
     )
