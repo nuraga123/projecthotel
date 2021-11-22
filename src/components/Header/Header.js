@@ -11,7 +11,7 @@ const Header = () => {
             </h1>
             
             <p className="header__text">
-              Specialist who knows how to layout web pages, has a good knowledge of the JavaScript programming language, knows one or several JavaScript frameworks (React, Angular, Vue.js), as well as a number of other web technologies that are used during the creation of the client side of the web -site.
+              Specialist who knows how to layout web pages, has a good knowledge of the JavaScript programming language, knows one or several JavaScript frameworks (React, Angular, Vue.js)
             </p>
 
             <a 
