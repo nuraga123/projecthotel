@@ -1,5 +1,6 @@
-.header__ava {
-    width: 243px;
+.ava {
+    width: 100%;
+    max-width: 243px;
     height: 243px;
     border-radius: 15%;
 }
