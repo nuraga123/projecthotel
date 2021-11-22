@@ -1,4 +1,6 @@
 .ava {
+    display: flex;
+    align-items: center;
     width: 100%;
     max-width: 243px;
     height: 243px;
@@ -66,7 +68,7 @@
         width: 300px;
     }
 
-    .header__ava {
+    .ava {
         width: 170px;
         height: 170px;
         margin-bottom: 44px;
