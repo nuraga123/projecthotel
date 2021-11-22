@@ -24,7 +24,7 @@ const Header = () => {
             </a>
           </div>
           <div>
-            <img className="header__ava" src="Img/nuraga1.jpg" alt="" />
+            <img className="header__ava" src="Img/nuraga1.jpg" alt="nuraga" />
           </div>
         </header>
     )
